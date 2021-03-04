@@ -11,6 +11,8 @@
 		F23A6E1A25F192AB00494ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A6E1925F192AB00494ABD /* ContentView.swift */; };
 		F23A6E1C25F192AD00494ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23A6E1B25F192AD00494ABD /* Assets.xcassets */; };
 		F23A6E1F25F192AD00494ABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23A6E1E25F192AD00494ABD /* Preview Assets.xcassets */; };
+		F23A6E2B25F19A3900494ABD /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A6E2A25F19A3900494ABD /* ChoiceTextView.swift */; };
+		F23A6E2F25F19A6200494ABD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A6E2E25F19A6200494ABD /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F23A6E1B25F192AD00494ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23A6E1E25F192AD00494ABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F23A6E2025F192AD00494ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23A6E2A25F19A3900494ABD /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		F23A6E2E25F19A6200494ABD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				F23A6E1725F192AB00494ABD /* CodeHistoryApp.swift */,
+				F23A6E2A25F19A3900494ABD /* ChoiceTextView.swift */,
 				F23A6E1925F192AB00494ABD /* ContentView.swift */,
+				F23A6E2E25F19A6200494ABD /* Question.swift */,
 				F23A6E1B25F192AD00494ABD /* Assets.xcassets */,
 				F23A6E2025F192AD00494ABD /* Info.plist */,
 				F23A6E1D25F192AD00494ABD /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23A6E1A25F192AB00494ABD /* ContentView.swift in Sources */,
+				F23A6E2F25F19A6200494ABD /* Question.swift in Sources */,
 				F23A6E1825F192AB00494ABD /* CodeHistoryApp.swift in Sources */,
+				F23A6E2B25F19A3900494ABD /* ChoiceTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
